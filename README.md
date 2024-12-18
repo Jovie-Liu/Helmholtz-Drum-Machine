@@ -1,6 +1,8 @@
 # Helmholtz-Drum-Machine
 Real-time Music-generating User-computer Interactive Helmholtz Machine
 
+<video src='[your URL here](https://www.youtube.com/watch?v=Poai3rMIy30&list=PLWSd-mlbNCAWjovFmisi1asUd0StPzdPc)' width=180/>
+
 This repository records an application that performs real-time machine-learning-based music generating, synthesizing, streaming, and training in Python. The generative model is the Helmholtz machine, and the generated music is percussive drum patterns. The real-time training is instructed by user preference based on-line data construction. The multi-processing real-time system is realized by `threading` in Python.
 
 *Note*: this work is included in the author's Ph.D. qualification writing [Studies based on the Helmholtz Machine](https://drive.google.com/file/d/1CNLO2FjDNW5RT0Zfc70ynZeVdm-KQsTH/view?pli=1), Chapter 4.
