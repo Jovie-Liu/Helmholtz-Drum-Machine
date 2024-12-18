@@ -19,3 +19,17 @@ There are 4 threads in the multi-processing system:
 
 <img src="Figures/real_train.jpg" style="width:800px">
 <caption><center> Figure 1: Thread-based Multi-processing System for Real-time audio Streaming, Synthesis, and User-interactive Neural Network Training. </center></caption>
+
+## Action-Perception Loop
+
+The real-time training based on user preference is a typical HCI (Human-Computer Interaction) system. The interaction depicted in Fig. 4 can be interpreted under various models such as TTOM (thinking through other minds) [[paper](https://sandervandecruys.be/pdf/2020_VandeCruysHeylighenBBS_Dark_side.pdf)], active inference of communication [[paper](https://www.sciencedirect.com/science/article/pii/S0149763420304668?via%3Dihub)], emotional inference devices [[paper](https://www.frontiersin.org/journals/computational-neuroscience/articles/10.3389/fncom.2020.00030/full)], agent-environment system [[paper](https://www.sciencedirect.com/science/article/pii/S0022519318303151)] and niche construction [[paper](https://royalsocietypublishing.org/doi/pdf/10.1098/rsif.2017.0685)]. Here we could model the agent's brain using another Helmholtz machine (please refer to [Chapter 3](https://drive.google.com/file/d/1CNLO2FjDNW5RT0Zfc70ynZeVdm-KQsTH/view?pli=1) for the Helmholtz neural machine). If the action-perception loop runs between two Helmholtz machines, it's a computer-computer interactive system. If we have a real agent controlling the interface, it's a HCI system as covered here.
+
+<img src="Figures/action_perception.jpg" style="width:800px">
+<caption><center> *Figure 4*: Communication between Two Helmholtz Machines via Action-Perception Loop. The Helmholtz machines can be artificial (simulated by computer) or neuronal (hierarchical cortical responses).</center></caption>
+
+The reciprocal loop of communicative exchanges are realized by two agents' *inferring each other*, decomposed as below:
+
+- User's action (explicit): active niche construction. Modified data distribution by user preference selection.
+- Machine's perception (explicit): training of the Helmholtz machine. Optimize model representations to approximate the data distribution.
+- Machine's action (implicit): generated samples of the Helmholtz machine. The outputs screened by the user potentially act on the user's internal models.
+- User's perception (implicit): the user's perception or expectation is subject to machine generations. User's ears might get used to the surprising patterns after long enough time.
