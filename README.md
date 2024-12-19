@@ -18,7 +18,7 @@ There are 4 threads in the multi-processing system:
 - Thread 4: Training: Training of the neural network with real-time user-constructed datasets by active sampling. A bywork is to plot the data and generative distribution after several epochs.
 
 <img src="Figures/real_train.jpg" style="width:800px">
-<caption><center> Figure 1: Thread-based Multi-processing System for Real-time audio Streaming, Synthesis, and User-interactive Neural Network Training. </center></caption>
+<caption><center> Figure 1: Thread-based Multi-processing System for Real-time Audio Streaming, Synthesis, and User-interactive Neural Network Training. </center></caption>
 
 ## Action-Perception Loop
 
