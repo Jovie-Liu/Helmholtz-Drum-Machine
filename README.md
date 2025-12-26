@@ -3,7 +3,8 @@ Real-time Music-generating User-computer Interactive Helmholtz Machine [[Watch t
 
 This repository records an application that performs real-time machine-learning-based music generating, synthesizing, streaming, and training in Python. The generative model is the Helmholtz machine, and the generated music is percussive drum patterns. The real-time training is instructed by user preference based on-line data construction. The multi-processing real-time system is realized by `threading` in Python.
 
-*Note*: this work is included in the author's Ph.D. qualification writing [Studies based on the Helmholtz Machine](https://drive.google.com/file/d/1CNLO2FjDNW5RT0Zfc70ynZeVdm-KQsTH/view?pli=1), Chapter 4, and also incorporated in Section 3.4 *Action-Perception Loop* in the author's [Ph.D. dissertation](https://www.proquest.com/openview/581cd124d0c14930d566ba9010cecd67/1?pq-origsite=gscholar&cbl=18750&diss=y).
+- The corresponding paper, [Helmholtz Drum Machine: A Real-time Human-Computer Interactive Music System](https://hal.science/hal-05287030), is included in the [repertoire](http://repmus.ircam.fr/reach/publi) of the ERC Advanced Grant Project REACH on HAL Open Science.
+- This work is included in the author's Ph.D. qualification writing [Studies based on the Helmholtz Machine](https://drive.google.com/file/d/1CNLO2FjDNW5RT0Zfc70ynZeVdm-KQsTH/view?pli=1), Chapter 4, and also incorporated in Section 3.4 *Action-Perception Loop* in the author's [Ph.D. dissertation](https://www.proquest.com/openview/581cd124d0c14930d566ba9010cecd67/1?pq-origsite=gscholar&cbl=18750&diss=y).
 
 ## Real-time Multi-processing Interactive System
 
